@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import PrefectureCheckboxes from './components/prefectureCheckboxes'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <PrefectureCheckboxes />
     </div>
   )
 }
