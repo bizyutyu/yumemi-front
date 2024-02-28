@@ -21,7 +21,7 @@ const PrefectureCheckboxes: React.FC<Props> = ({
       const response = await axios.get(
         'https://opendata.resas-portal.go.jp/api/v1/prefectures',
         {
-          headers: { 'X-API-KEY': 'AEWhaI0nG7VlxpJXfpzQr3d9Rmyrr7Z4tESUA3EK' },
+          headers: { 'X-API-KEY': `${process.env.REACT_APP_RESAS_API_KEY}` },
         }
       )
       setPrefectures(response.data.result)
