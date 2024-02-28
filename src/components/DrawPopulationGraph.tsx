@@ -25,7 +25,7 @@ const DrawPopulationGraph: React.FC<Props> = ({
             `https://opendata.resas-portal.go.jp/api/v1/population/composition/perYear?cityCode=-&prefCode=${prefCode}`,
             {
               headers: {
-                'X-API-KEY': 'AEWhaI0nG7VlxpJXfpzQr3d9Rmyrr7Z4tESUA3EK',
+                'X-API-KEY': `${process.env.REACT_APP_RESAS_API_KEY}`,
               },
             }
           )
