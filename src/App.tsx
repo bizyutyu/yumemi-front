@@ -9,6 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>こんにちは</p>
+        <a href="https://resas.go.jp/#/13/13101">
+          <p>出典 : RESAS（地域経済分析システム）</p>
+        </a>
       </header>
       <ParentComponent />
     </div>
