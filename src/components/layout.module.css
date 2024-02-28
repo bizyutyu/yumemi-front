@@ -1,0 +1,9 @@
+/*都道府県一覧チェックボックスを横並びに*/
+.checkBox {
+  display: flex;
+  color: black;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0;
+  padding: 6px;
+}
