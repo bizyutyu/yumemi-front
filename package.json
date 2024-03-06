@@ -2,6 +2,8 @@
   "name": "yumemi-front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bizyutyu.github.io/yumemi-front/",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +13,7 @@
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
     "axios": "^1.6.7",
+    "gh-pages": "^6.1.1",
     "highcharts": "^11.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
